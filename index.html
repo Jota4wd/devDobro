@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev em Dobro</title>
+    <style>
+        body { margin: 0; }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .lado-esquerdo {
+            width: 50%;
+            color: white;
+            background-image: url('./x-devs/src/imagens/background.webp');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            
+}
+
+        .lado-direito {
+            width: 50%;
+            color: white;
+            background-image: url('./ghost/src/imagens/background.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lado-esquerdo">
+            <h2>Pojeto Original</h2>
+            <p>Conteúdo original, com imagens trabalhadas e css ja todo estilizado por profissionais:</p>
+            <a href="./x-devs/index.html">Original</a>
+            <br>
+            <br>
+            <hr color="black">
+        </div>
+        <div class="lado-direito">
+            <h2>Projeto Alterado</h2>
+            <p>Conteúdo alterado, com imagens da internet sem tratamento ou css profissionais:</p>
+            <a href="./ghost/index.html">Explorando</a>
+            <br>
+            <br>
+            <hr color="black">
+        </div>
+    </div>
+</body>
+</html>
